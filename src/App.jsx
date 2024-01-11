@@ -14,21 +14,21 @@ function App() {
   const [collegeProgram, setCollegeProgram] = useState("");
 
   useEffect(() => {
-    const oldPage = parseInt(localStorage.getItem("page")) || 1;
+    const oldPage = parseInt(localStorage.getItem("page")) ?? 1;
 
     // Personal Information Old Values
-    const oldFirstName = localStorage.getItem("firstName") || "";
-    const oldMiddleName = localStorage.getItem("middleName") || "";
-    const oldLastName = localStorage.getItem("lastName") || "";
-    const oldFatherName = localStorage.getItem("fatherName") || "";
-    const oldMotherName = localStorage.getItem("motherName") || "";
+    const oldFirstName = localStorage.getItem("firstName") ?? "";
+    const oldMiddleName = localStorage.getItem("middleName") ?? "";
+    const oldLastName = localStorage.getItem("lastName") ?? "";
+    const oldFatherName = localStorage.getItem("fatherName") ?? "";
+    const oldMotherName = localStorage.getItem("motherName") ?? "";
 
-    const oldContactNumber = localStorage.getItem("contactNumber") || "";
-    const oldEmailAddress = localStorage.getItem("emailAddress") || "";
+    const oldContactNumber = localStorage.getItem("contactNumber") ?? "";
+    const oldEmailAddress = localStorage.getItem("emailAddress") ?? "";
 
-    const oldCollegeName = localStorage.getItem("collegeName") || "";
-    const oldCollegeAddress = localStorage.getItem("collegeAddress") || "";
-    const oldCollegeProgram = localStorage.getItem("collegeProgram") || "";
+    const oldCollegeName = localStorage.getItem("collegeName") ?? "";
+    const oldCollegeAddress = localStorage.getItem("collegeAddress") ?? "";
+    const oldCollegeProgram = localStorage.getItem("collegeProgram") ?? "";
 
     setFirstName(() => oldFirstName);
     setMiddleName(() => oldMiddleName);
@@ -183,7 +183,7 @@ function App() {
   switch (page) {
     case 1:
       return (
-        <div className="container mt-5 w-50">
+        <div className="container mt-5">
           <h1 className="text-center py-3">Multi-Step Form</h1>
           <div className="card p-3 my-3">
             <h3 className="card-title mb-3">
@@ -280,7 +280,7 @@ function App() {
 
     case 2:
       return (
-        <div className="container mt-5 w-50">
+        <div className="container mt-5">
           <h1 className="text-center py-3">Multi-Step Form</h1>
           <div className="card p-3 my-3">
             <h3 className="card-title mb-3">
@@ -339,7 +339,7 @@ function App() {
 
     case 3:
       return (
-        <div className="container mt-5 w-50">
+        <div className="container mt-5">
           <h1 className="text-center py-3">Multi-Step Form</h1>
           <div className="card p-3 my-3">
             <h3 className="card-title mb-3">
@@ -414,7 +414,7 @@ function App() {
 
     default:
       return (
-        <div className="container mt-5 w-50">
+        <div className="container mt-5">
           <h1 className="text-center py-3">Result</h1>
           <div class="card text-bg-success mb-3">
             <div class="card-header fw-bold text-uppercase">
