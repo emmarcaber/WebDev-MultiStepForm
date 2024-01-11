@@ -59,7 +59,6 @@ function App() {
   }
 
   function page1NextStep() {
-    const validRegex = /[a-z][A-z]+/;
     if (firstName === "") {
       alertMessage("First Name is required!");
     } else if (lastName === "") {
@@ -74,7 +73,7 @@ function App() {
   }
 
   function page2NextStep() {
-    const validNumber = /[0-9]+/;
+    const validNumber = /^[0-9]+$/;
     const validEmail =
       /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
