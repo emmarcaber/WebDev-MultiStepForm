@@ -268,12 +268,16 @@ function App() {
               />
             </div>
 
-            <button
-              className="btn btn-primary mt-3 py-2"
-              onClick={page1NextStep}
-            >
-              Next
-            </button>
+            <div className="d-flex justify-content-end">
+              <div>
+                <button
+                  className="btn btn-primary mt-3 py-2"
+                  onClick={page1NextStep}
+                >
+                  Next
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       );
