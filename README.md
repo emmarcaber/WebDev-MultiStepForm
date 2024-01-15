@@ -36,15 +36,15 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 
 2. Navigate to the project directory:
 
-  ```bash
-  cd WebDev-MultiStepForm
-  ```
+    ```bash
+    cd WebDev-MultiStepForm
+    ```
 
 3. Install dependencies:
 
-  ```bash
-  npm install
-  ```
+    ```bash
+    npm install
+    ```
 
 ## Usage
 
