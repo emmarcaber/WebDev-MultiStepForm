@@ -68,4 +68,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the <a href="https://github.com/emmarcaber/WebDev-MultiStepForm?tab=MIT-1-ov-file">MIT License</a>.
+This project is licensed under the <a href="https://github.com/emmarcaber/WebDev-MultiStepForm/blob/main/LICENSE">MIT License</a>.
