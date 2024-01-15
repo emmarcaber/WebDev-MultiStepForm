@@ -19,7 +19,7 @@ function App() {
 
   const handleChange = (e, field) => {
     const value = e.target.value;
-    setFormData((prevData) => ({ ...prevData, [field]: value`` }));
+    setFormData((prevData) => ({ ...prevData, [field]: value }));
     localStorage.setItem(field, value);
   };
 
