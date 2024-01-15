@@ -9,6 +9,7 @@ This is a simple multi-step form built with React that allows users to input per
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
+- [Live Demo](#live-demo)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -61,6 +62,10 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 4. Optionally, refresh the page to see that your form progress is maintained using `localStorage`.
 
 5. Submit the form to see the displayed result.
+
+## Live Demo
+
+Visit the live demo of the application in: <a href="https://web-dev-multi-step-form.vercel.app/">Multi-Step Form Demo</a>
 
 ## Contributing
 
