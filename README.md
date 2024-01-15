@@ -65,7 +65,7 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 
 ## Live Demo
 
-Visit the live demo of the application in: <a href="https://web-dev-multi-step-form.vercel.app/">Multi-Step Form Demo</a>
+Visit the live demo of the application in: <a href="https://web-dev-multi-step-form.vercel.app/" target="_blank">Multi-Step Form Demo</a>
 
 ## Contributing
 
